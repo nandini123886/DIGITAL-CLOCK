@@ -1,0 +1,27 @@
+body{
+       background-image:url("img2.jpg"); 
+       background-size: cover;
+       
+}
+.clock{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%) ;
+    display: flex;
+}
+.heading{
+    color:#8276ec;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+}
+.time{
+    background:#090909;
+    color: #fff;
+    font-size: 100px;
+    width: 150px;
+    margin:0 10px;
+    text-align: center;
+}
